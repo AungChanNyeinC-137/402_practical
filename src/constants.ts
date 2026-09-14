@@ -114,4 +114,26 @@ export const TOPICS_DATA: TopicItem[] = [
       },
     ],
   },
+  {
+    id: "open-mp",
+    title: "OpenMP",
+    description: "OpenMP implementation for parallel programming.",
+    files: [
+      {
+        id: "reduction",
+        filename: "reduction.c",
+        path: "/Topics/OpenMP/reduction.c",
+      },
+      {
+        id: "sections",
+        filename: "sections.c",
+        path: "/Topics/OpenMP/sections.c",
+      },
+      {
+        id: "scheduling",
+        filename: "scheduling.c",
+        path: "/Topics/OpenMP/scheduling.c",
+      }
+    ],
+  },
 ];
