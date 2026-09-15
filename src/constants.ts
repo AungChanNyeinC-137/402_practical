@@ -144,12 +144,12 @@ export const TOPICS_DATA: TopicItem[] = [
     files: [
       {
         id: "reduction",
-        filename: "reduction.c",
+        filename: "No1.cpp",
         path: "/Topics/MPI/No1.cpp",
       },
       {
         id: "sections",
-        filename: "sections.c",
+        filename: "No2.cpp",
         path: "/Topics/MPI/No2.cpp",
       },
      
