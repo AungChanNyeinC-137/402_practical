@@ -136,4 +136,23 @@ export const TOPICS_DATA: TopicItem[] = [
       }
     ],
   },
+
+  {
+    id: "mpi",
+    title: "MPI",
+    description: "MPI implementation for parallel programming.",
+    files: [
+      {
+        id: "reduction",
+        filename: "reduction.c",
+        path: "/Topics/MPI/No1.cpp",
+      },
+      {
+        id: "sections",
+        filename: "sections.c",
+        path: "/Topics/MPI/No2.cpp",
+      },
+     
+    ],
+  },
 ];
