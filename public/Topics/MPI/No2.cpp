@@ -37,12 +37,12 @@ int main(int argc, char *argv[])
     // Broadcast value from process 0 to all processes
     MPI_Bcast(
         &value,
-        1,
+        1, //int count
         MPI_INT,
-        0,
-        MPI_COMM_WORLD
+        0, //rank of the root process (process 0)
+        MPI_COMM_WORLD //all processes in the communicator
     );
-
+    
     // Each process adds its rank
     value += rank;
 

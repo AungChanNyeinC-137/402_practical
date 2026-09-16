@@ -133,6 +133,11 @@ export const TOPICS_DATA: TopicItem[] = [
         id: "scheduling",
         filename: "scheduling.c",
         path: "/Topics/OpenMP/scheduling.c",
+      },
+       {
+        id: "sum_and_average",
+        filename: "sum and average",
+        path: "/Topics/OpenMP/sum_and_average.c",
       }
     ],
   },
