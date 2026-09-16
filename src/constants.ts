@@ -114,50 +114,5 @@ export const TOPICS_DATA: TopicItem[] = [
       },
     ],
   },
-  {
-    id: "open-mp",
-    title: "OpenMP",
-    description: "OpenMP implementation for parallel programming.",
-    files: [
-      {
-        id: "reduction",
-        filename: "reduction.c",
-        path: "/Topics/OpenMP/reduction.c",
-      },
-      {
-        id: "sections",
-        filename: "sections.c",
-        path: "/Topics/OpenMP/sections.c",
-      },
-      {
-        id: "scheduling",
-        filename: "scheduling.c",
-        path: "/Topics/OpenMP/scheduling.c",
-      },
-       {
-        id: "sum_and_average",
-        filename: "sum and average",
-        path: "/Topics/OpenMP/sum_and_average.c",
-      }
-    ],
-  },
-
-  {
-    id: "mpi",
-    title: "MPI",
-    description: "MPI implementation for parallel programming.",
-    files: [
-      {
-        id: "reduction",
-        filename: "No1.cpp",
-        path: "/Topics/MPI/No1.cpp",
-      },
-      {
-        id: "sections",
-        filename: "No2.cpp",
-        path: "/Topics/MPI/No2.cpp",
-      },
-     
-    ],
-  },
+  
 ];
