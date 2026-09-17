@@ -105,6 +105,23 @@ export const TOPICS_DATA: TopicItem[] = [
         id: "two-activities-strings",
         filename: "strings.xml",
         path: "/Topics/Two Activities/strings.xml",
-      },]}
+      },]},
+      {
+    id: "implicit-intents",
+    title: "Implicit Intents",
+    description: "Implicit Intents implementation demonstrating launching external web browsers, maps, and text-sharing choosers.",
+    files: [
+      {
+        id: "implicit-intents-activity-main",
+        filename: "activity_main.xml",
+        path: "/Topics/Implicit Intents App/activity_main.xml",
+      },
+      {
+        id: "implicit-intents-main-activity",
+        filename: "MainActivity.java",
+        path: "/Topics/Implicit Intents App/MainActivity.java",
+      },
+    ],
+  },
   
 ];
