@@ -66,5 +66,45 @@ export const TOPICS_DATA: TopicItem[] = [
       },
     ],
   },
+  {
+    id: "two-activities",
+    title: "Two Activities",
+    description: "Two Activities layout and implementation demonstrating intent messaging and result handling between screens.",
+    files: [
+      {
+        id: "two-activities-activity-main",
+        filename: "activity_main.xml",
+        path: "/Topics/Two Activities/activity_main.xml",
+      },
+      {
+        id: "two-activities-activity-second",
+        filename: "activity_second.xml",
+        path: "/Topics/Two Activities/activity_second.xml",
+      },
+      {
+        id: "two-activities-colors",
+        filename: "colors.xml",
+        path: "/Topics/Two Activities/colors.xml",
+      },
+      {
+        id: "two-activities-dimens",
+        filename: "dimens.xml",
+        path: "/Topics/Two Activities/dimens.xml",
+      },
+      {
+        id: "two-activities-main-activity",
+        filename: "MainActivity.java",
+        path: "/Topics/Two Activities/MainActivity.java",
+      },
+      {
+        id: "two-activities-second-activity",
+        filename: "SecondActivity.java",
+        path: "/Topics/Two Activities/SecondActivity.java",
+      },
+      {
+        id: "two-activities-strings",
+        filename: "strings.xml",
+        path: "/Topics/Two Activities/strings.xml",
+      },]}
   
 ];
